@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Last News</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="css/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class=" ">
+        <!-- **Icons** -->
+        <div class="flex flex-wrap justify-end gap-2 px-4 py-2 items-center sm:gap-4 md:gap-6 lg:gap-8">
+            <img class="" src="img/Layer 2.png" alt="">
+            <i class="fa-brands fa-facebook-f hover:text-blue-800"></i>
+            <i class="fa-brands fa-twitter hover:text-blue-400"></i>
+            <i class="fa-brands fa-instagram hover:text-red-400"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <button class="">English</button>
+        </div>
+        <hr class="text-amber-300">
+        <!-- Nav Bar -->
+        <nav class=" max-w-7xl mx-auto z-20 shadow px-12">
+            <div class="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="index.html" class="flex items-center gap-2 rtl:space-x-reverse">
+                    <img class="w-10 " src="img/dc317381b10a77057fe67d789860c5bd714401f9.png" alt="">
+                    <div>
+                        <p>دولة فلسطين</p>
+                        <p class="text-gray-500 text-sm">وزارة الخارجية</p>
+                    </div>
+                </a>
+                <!-- menu bar btn -->
+                <button data-collapse-toggle="navbar-default" type="button"
+                    class="menu_bar_btn inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded md:hidden hover:bg-amber-300 hover:text-heading"
+                    aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                            d="M5 7h14M5 12h14M5 17h14" />
+                    </svg>
+                </button>
+                <div class="menu_mobile hidden w-full md:block md:w-auto" id="navbar-default">
+                    <ul
+                        class="flex flex-col p-4 md:p-0 mt-4 items-center rounded-base  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 ">
+                        <li>
+                            <a href="index.html" class="block py-2 px-3 bg-brand rounded  md:text-fg-brand md:p-0 "
+                                aria-current="page">الرئيسية</a>
+                        </li>
+                        <li>
+                            <!-- فلسطين -->
+                            <div class="relative w-fit group">
+                                <button data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="dropdownHoverButton inline-flex items-center justify-center  box-border leading-5 px-2
+                                                                         py-2.5 " type="button">فلسطين
+                                    <svg class="w-4 h-4 ms-1.5 -me-0.5 text-[#FFB400]" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                        viewBox="0 0 24 24">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="m19 9-7 7-7-7" />
+                                    </svg>
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div id="dropdownHover"
+                                    class=" group-hover:block dropdownHover z-10 shadow-2xl w-44 absolute top-10 right-3 bg-white hidden ">
+                                    <ul class="p-2 text-sm text-body " aria-labelledby="dropdownHoverButton">
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">فلسطين
+                                                التاريخية</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">العلم
+                                                والنشيد</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">القدس
+                                                العاصمة</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100">التراث
+                                                الفلسطيني</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- الوزارة -->
+                            <div class="relative w-fit group">
+                                <button data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="dropdownHoverButton inline-flex items-center justify-center  box-border leading-5 px-2
+                                                                         py-2.5 " type="button">الوزارة
+                                    <svg class="w-4 h-4 ms-1.5 -me-0.5 text-[#FFB400]" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                        viewBox="0 0 24 24">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="m19 9-7 7-7-7" />
+                                    </svg>
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div
+                                    class="group-hover:block dropdownHover z-10 shadow-2xl w-44 absolute top-10 right-3 bg-white hidden">
+                                    <ul class="p-2 text-sm text-body " aria-labelledby="dropdownHoverButton">
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">الرؤية
+                                                والرسالة</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">قانون
+                                                السلك الدبلوماسي</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">الموقف
+                                                الرسمي</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100">نشاطات
+                                                الوزارة</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <!--   القضايا الاساسية -->
+                            <div class="relative w-fit group">
+                                <button data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="dropdownHoverButton inline-flex items-center justify-center  box-border leading-5 px-2
+                                                                         py-2.5 " type="button">القضايا السياسية
+                                    <svg class="w-4 h-4 ms-1.5 -me-0.5 text-[#FFB400]" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                        viewBox="0 0 24 24">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="m19 9-7 7-7-7" />
+                                    </svg>
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div
+                                    class="group-hover:block dropdownHover z-10 shadow-2xl w-44 absolute top-10 right-3 bg-white hidden">
+                                    <ul class="p-2 text-sm text-body " aria-labelledby="dropdownHoverButton">
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">حصار
+                                                غزة</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">القدس</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">الاسرى</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100 border-b border-amber-300">اللاجئين</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100">الاستيطان</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- الخدمات -->
+                            <div class="relative w-fit group">
+                                <button data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="dropdownHoverButton inline-flex items-center justify-center  box-border leading-5 px-2
+                                                                         py-2.5 " type="button">الخدمات
+                                    <svg class="w-4 h-4 ms-1.5 -me-0.5 text-[#FFB400]" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                        viewBox="0 0 24 24">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="m19 9-7 7-7-7" />
+                                    </svg>
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div
+                                    class="group-hover:block dropdownHover z-10 shadow-2xl w-44 absolute top-10 right-3 bg-white hidden">
+                                    <ul class="p-2 text-sm text-body " aria-labelledby="dropdownHoverButton">
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">تنسيقات</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">تصديقات</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100">دليل
+                                                الخدمة</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="" class="px-2">تواصل معنا</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="max-w-5xl mx-auto my-10 bg-gray-300/50 p-8 rounded">
+            <div class="font-semibold text-2xl">تواصل معنا</div>
+            <p class="text-gray-700">نحن نعمل باستمرار لجعل تجربتك من خلال الخدمات الحكومية أسهل, سنقوم بالرد على رسالتكم خلال 24 ساعة</p>
+
+            <div class="flex flex-wrap  justify-between my-10">
+                <form action="#" method="POST" class="space-y-4 w-1/2">
+                    <!-- الاسم -->
+                    <div>
+                        <label for="name" class="block text-gray-700 mb-1">الاسم</label>
+                        <input id="name" name="name" type="text" required placeholder="ادخل الاسم"
+                            class="w-full border rounded-lg px-4 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <!-- الجوال -->
+                    <div>
+                        <label for="phone" class="block text-gray-700 mb-1">رقم الجوال</label>
+                        <input id="phone" name="phone" type="tel" required
+                            class="w-full border rounded-lg px-4 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <!-- البريد -->
+                    <div>
+                        <label for="email" class="block text-gray-700 mb-1">البريد الإلكتروني</label>
+                        <input id="email" name="email" type="email" required placeholder="ادخل البريد الإلكتروني"
+                            class="w-full border rounded-lg px-4 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <!-- الرسالة -->
+                    <div>
+                        <label for="message" class="block text-gray-700 mb-1">الرسالة</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="اكتب رسالتك هنا..."
+                            class="w-full border rounded-lg px-4 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"></textarea>
+                    </div>
+                    <!-- زر الإرسال -->
+                    <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition w-full">
+                        إرسال
+                    </button>
+                </form>
+                <div class="max-w-sm bg-white rounded-xl shadow-md p-2 space-y-3">
+                    <img class="w-full h-64 object-cover rounded-lg" src="img/e5a3e223355c3c97766f51f6c9643cfdcf0eaace (1).png"
+                        alt="صورة توضيحية">
+                    <p class="text-gray-700 leading-relaxed">
+                        أرقام التواصل:
+                    </p>
+                    <p class="text-gray-700 leading-relaxed">
+                    رقم الوزارة 08/2817787 vip.protocol@mofa.gov.ps
+                    </p>
+                    <p class="text-gray-700 leading-relaxed">
+                        رقم الوزارة 08/2817787 vip.protocol@mofa.gov.ps
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- fooooter -->
+    <footer class="">
+        <div class="mt-20 bg-gray-950 w-full text-gray-400 flex flex-wrap justify-between p-8">
+            <div>
+                <a href="" class="flex items-center gap-2 rtl:space-x-reverse m-5">
+                    <img class="w-10 " src="img/dc317381b10a77057fe67d789860c5bd714401f9.png" alt="">
+                    <div>
+                        <p class="text-amber-400 text-2xl">دولة فلسطين</p>
+                        <p class="text-amber-300 text-sm">وزارة الخارجية</p>
+                    </div>
+                </a>
+                <p class="max-w-100">نبذة عن وزارة الخارجية نبذة عن وزارة الخارجية الخارجية نبذة عن وزارة الخارجية نبذة عن
+                    وزارة
+                    الخارجية نبذة عن وزارة
+                    الخارجية نبذة عن وزارة الخارجية نبذة عن وزارة الخارجية نبذة عن وزارة الخارجية نبذة عن وزارة</p>
+            </div>
+            <div>
+                <p class="text-2xl border-b-2 border-amber-400 m-1 p-1 mb-5">روابط مهمة</p>
+                <ul class="text-center ">
+                    <li class="m-2"><a class="text-xl hover:text-amber-500 " href="">شكاوى المواطنين</a></li>
+                    <li class="m-2"><a class="text-xl hover:text-amber-500 " href="">أسئلة شائعة</a></li>
+                    <li class="m-2"><a class="text-xl hover:text-amber-500 " href="">روابط مهمة</a></li>
+                    <li class="m-2"><a class="text-xl hover:text-amber-500 " href="">روابط مهمة</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="text-2xl border-b-2 border-amber-400 m-1 p-1 mb-5">للتواصل</p>
+                <div><i class="fa-brands fa-facebook-f hover:text-blue-800 text-2xl"></i>
+                    <i class="fa-brands fa-twitter hover:text-blue-400 text-2xl"></i>
+                    <i class="fa-brands fa-instagram hover:text-red-400 text-2xl"></i>
+                </div>
+            </div>
+        </div>
+        <div class="w-full h-9 bg-amber-300 flex justify-center items-center">
+            <p>جميع الحقوق محفوظة - وزارة الخارجية 2023</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

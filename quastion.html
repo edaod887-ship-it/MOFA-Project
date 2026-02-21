@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="css/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class=" ">
+        <!-- **Icons** -->
+        <div class="flex flex-wrap justify-end gap-2 px-4 py-2 items-center sm:gap-4 md:gap-6 lg:gap-8">
+            <img class="" src="img/Layer 2.png" alt="">
+            <i class="fa-brands fa-facebook-f hover:text-blue-800"></i>
+            <i class="fa-brands fa-twitter hover:text-blue-400"></i>
+            <i class="fa-brands fa-instagram hover:text-red-400"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <button class="">English</button>
+        </div>
+        <hr class="text-amber-300">
+        <!-- Nav Bar -->
+        <nav class=" max-w-7xl mx-auto z-20 shadow px-12">
+            <div class="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="index.html" class="flex items-center gap-2 rtl:space-x-reverse">
+                    <img class="w-10 " src="img/dc317381b10a77057fe67d789860c5bd714401f9.png" alt="">
+                    <div>
+                        <p>دولة فلسطين</p>
+                        <p class="text-gray-500 text-sm">وزارة الخارجية</p>
+                    </div>
+                </a>
+                <!-- menu bar btn -->
+                <button data-collapse-toggle="navbar-default" type="button"
+                    class="menu_bar_btn inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded md:hidden hover:bg-amber-300 hover:text-heading"
+                    aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                            d="M5 7h14M5 12h14M5 17h14" />
+                    </svg>
+                </button>
+                <div class="menu_mobile hidden w-full md:block md:w-auto" id="navbar-default">
+                    <ul
+                        class="flex flex-col p-4 md:p-0 mt-4 items-center rounded-base  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 ">
+                        <li>
+                            <a href="index.html" class="block py-2 px-3 bg-brand rounded  md:text-fg-brand md:p-0 "
+                                aria-current="page">الرئيسية</a>
+                        </li>
+                        <li>
+                            <!-- فلسطين -->
+                            <div class="relative w-fit group">
+                                <button data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="dropdownHoverButton inline-flex items-center justify-center  box-border leading-5 px-2
+                                                                         py-2.5 " type="button">فلسطين
+                                    <svg class="w-4 h-4 ms-1.5 -me-0.5 text-[#FFB400]" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                        viewBox="0 0 24 24">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="m19 9-7 7-7-7" />
+                                    </svg>
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div id="dropdownHover"
+                                    class=" group-hover:block dropdownHover z-10 shadow-2xl w-44 absolute top-10 right-3 bg-white hidden ">
+                                    <ul class="p-2 text-sm text-body " aria-labelledby="dropdownHoverButton">
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">فلسطين
+                                                التاريخية</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">العلم
+                                                والنشيد</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">القدس
+                                                العاصمة</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100">التراث
+                                                الفلسطيني</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- الوزارة -->
+                            <div class="relative w-fit group">
+                                <button data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="dropdownHoverButton inline-flex items-center justify-center  box-border leading-5 px-2
+                                                                         py-2.5 " type="button">الوزارة
+                                    <svg class="w-4 h-4 ms-1.5 -me-0.5 text-[#FFB400]" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                        viewBox="0 0 24 24">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="m19 9-7 7-7-7" />
+                                    </svg>
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div
+                                    class="group-hover:block dropdownHover z-10 shadow-2xl w-44 absolute top-10 right-3 bg-white hidden">
+                                    <ul class="p-2 text-sm text-body " aria-labelledby="dropdownHoverButton">
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">الرؤية
+                                                والرسالة</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">قانون
+                                                السلك الدبلوماسي</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">الموقف
+                                                الرسمي</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100">نشاطات
+                                                الوزارة</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <!--   القضايا الاساسية -->
+                            <div class="relative w-fit group">
+                                <button data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="dropdownHoverButton inline-flex items-center justify-center  box-border leading-5 px-2
+                                                                         py-2.5 " type="button">القضايا السياسية
+                                    <svg class="w-4 h-4 ms-1.5 -me-0.5 text-[#FFB400]" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                        viewBox="0 0 24 24">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="m19 9-7 7-7-7" />
+                                    </svg>
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div
+                                    class="group-hover:block dropdownHover z-10 shadow-2xl w-44 absolute top-10 right-3 bg-white hidden">
+                                    <ul class="p-2 text-sm text-body " aria-labelledby="dropdownHoverButton">
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">حصار
+                                                غزة</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">القدس</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">الاسرى</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100 border-b border-amber-300">اللاجئين</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100">الاستيطان</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- الخدمات -->
+                            <div class="relative w-fit group">
+                                <button data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="dropdownHoverButton inline-flex items-center justify-center  box-border leading-5 px-2
+                                                                         py-2.5 " type="button">الخدمات
+                                    <svg class="w-4 h-4 ms-1.5 -me-0.5 text-[#FFB400]" aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                        viewBox="0 0 24 24">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" d="m19 9-7 7-7-7" />
+                                    </svg>
+                                </button>
+                                <!-- Dropdown menu -->
+                                <div
+                                    class="group-hover:block dropdownHover z-10 shadow-2xl w-44 absolute top-10 right-3 bg-white hidden">
+                                    <ul class="p-2 text-sm text-body " aria-labelledby="dropdownHoverButton">
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">تنسيقات</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100  border-b border-amber-300">تصديقات</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                class="inline-flex items-center w-full p-2 hover:hover:bg-gray-100">دليل
+                                                الخدمة</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="" class="px-2">تواصل معنا</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2 class="text-2xl font-semibold text-center my-10">الأسئلة الشائعة</h2>
+        <div class="tabs flex flex-wrap justify-center gap-8 ">
+            <div class="tab1 p-2 rounded-xl bg-amber-300 cursor-pointer transition duration-300">كل الأسئلة</div>
+            <div class="tab2 p-2 rounded-xl cursor-pointer transition duration-300">التصديقات</div>
+            <div class="tab3 p-2 rounded-xl cursor-pointer transition duration-300">التنسيقات</div>
+            <div class="tab4 p-2 rounded-xl cursor-pointer transition duration-300">التدريب</div>
+            <div class="tab5 p-2 rounded-xl cursor-pointer transition duration-300">التعاون الدولي</div>
+        </div>
+        <div class="accordion">
+            <div class="tab1_acc max-w-3xl mx-auto mt-10 space-y-3 hidden">
+                <!-- Item -->
+                <div class="accordion-item bg-gray-100 rounded-lg overflow-hidden">
+                    <button class="accordion-header w-full flex justify-between items-center p-4 text-right font-semibold">
+                        ما هو "لوريم إيبسوم"؟
+                        <span class="icon transition-transform duration-300"><i
+                                class="text-amber-300 fa-solid fa-arrow-down"></i></span>
+                    </button>
+                    <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 px-4">
+                        <p class="py-4 text-gray-600">
+                            لوريم إيبسوم هو نص شكلي يستخدم في الطباعة والتصميم لملء الفراغ.
+                        </p>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="accordion-item bg-gray-100 rounded-lg overflow-hidden">
+                    <button class="accordion-header w-full flex justify-between items-center p-4 text-right font-semibold">
+                        ما هو "لوريم إيبسوم"؟
+                        <span class="icon transition-transform duration-300"><i
+                                class="text-amber-300 fa-solid fa-arrow-down"></i></span>
+                    </button>
+                    <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 px-4">
+                        <p class="py-4 text-gray-600">
+                            لوريم إيبسوم هو نص شكلي يستخدم في الطباعة والتصميم لملء الفراغ.
+                        </p>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="accordion-item bg-gray-100 rounded-lg overflow-hidden">
+                    <button class="accordion-header w-full flex justify-between items-center p-4 text-right font-semibold">
+                        ما هو "لوريم إيبسوم"؟
+                        <span class="icon transition-transform duration-300"><i
+                                class="text-amber-300 fa-solid fa-arrow-down"></i></span>
+                    </button>
+                    <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 px-4">
+                        <p class="py-4 text-gray-600">
+                            لوريم إيبسوم هو نص شكلي يستخدم في الطباعة والتصميم لملء الفراغ.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab2_acc max-w-3xl mx-auto mt-10 space-y-3 ">
+                <!-- Item -->
+                <div class="accordion-item bg-gray-100 rounded-lg overflow-hidden">
+                    <button class="accordion-header w-full flex justify-between items-center p-4 text-right font-semibold">
+                        ما هو "لوريم التصديقات"؟
+                        <span class="icon transition-transform duration-300"><i
+                                class="text-amber-300 fa-solid fa-arrow-down"></i></span>
+                    </button>
+                    <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 px-4">
+                        <p class="py-4 text-gray-600">
+                            لوريم التصديقات هو نص التصديقات يستخدم في التصديقات التصديقات التصديقات التصديقات.
+                        </p>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="accordion-item bg-gray-100 rounded-lg overflow-hidden">
+                    <button class="accordion-header w-full flex justify-between items-center p-4 text-right font-semibold">
+                        ما هو "لوريم إيبسوم"؟
+                        <span class="icon transition-transform duration-300"><i
+                                class="text-amber-300 fa-solid fa-arrow-down"></i></span>
+                    </button>
+                    <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 px-4">
+                        <p class="py-4 text-gray-600">
+                            لووريم التصديقات هو نص التصديقات يستخدم في التصديقات التصديقات التصديقات التصديقات.
+                        </p>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="accordion-item bg-gray-100 rounded-lg overflow-hidden">
+                    <button class="accordion-header w-full flex justify-between items-center p-4 text-right font-semibold">
+                        ما هو "لوريم إيبسوم"؟
+                        <span class="icon transition-transform duration-300"><i
+                                class="text-amber-300 fa-solid fa-arrow-down"></i></span>
+                    </button>
+                    <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 px-4">
+                        <p class="py-4 text-gray-600">
+                            لوريم إيبسوم هو نص شكلي يستخدم في الطباعة والتصميم لملء الفراغ.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab3_acc max-w-3xl mx-auto mt-10 space-y-3 hidden">
+                <!-- Item -->
+                <div class="accordion-item bg-gray-100 rounded-lg overflow-hidden">
+                    <button class="accordion-header w-full flex justify-between items-center p-4 text-right font-semibold">
+                        ما هو "لوريم التنسيقات"؟
+                        <span class="icon transition-transform duration-300"><i
+                                class="text-amber-300 fa-solid fa-arrow-down"></i></span>
+                    </button>
+                    <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 px-4">
+                        <p class="py-4 text-gray-600">
+                            لوريم إيبسوم هو نص شكلي يستخدم في الطباعة والتصميم لملء الفراغ.
+                        </p>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="accordion-item bg-gray-100 rounded-lg overflow-hidden">
+                    <button class="accordion-header w-full flex justify-between items-center p-4 text-right font-semibold">
+                        ما هو "لوريم إيبسوم"؟
+                        <span class="icon transition-transform duration-300"><i
+                                class="text-amber-300 fa-solid fa-arrow-down"></i></span>
+                    </button>
+                    <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 px-4">
+                        <p class="py-4 text-gray-600">
+                            لوريم إيبسوم هو نص شكلي يستخدم في الطباعة والتصميم لملء الفراغ.
+                        </p>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="accordion-item bg-gray-100 rounded-lg overflow-hidden">
+                    <button class="accordion-header w-full flex justify-between items-center p-4 text-right font-semibold">
+                        ما هو "لوريم إيبسوم"؟
+                        <span class="icon transition-transform duration-300"><i
+                                class="text-amber-300 fa-solid fa-arrow-down"></i></span>
+                    </button>
+                    <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 px-4">
+                        <p class="py-4 text-gray-600">
+                            لوريم إيبسوم هو نص شكلي يستخدم في الطباعة والتصميم لملء الفراغ.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab4_acc max-w-3xl mx-auto mt-10 space-y-3 hidden">
+                <!-- Item -->
+                <div class="accordion-item bg-gray-100 rounded-lg overflow-hidden">
+                    <button class="accordion-header w-full flex justify-between items-center p-4 text-right font-semibold">
+                        ما هو "لوريم التدريب"؟
+                        <span class="icon transition-transform duration-300"><i
+                                class="text-amber-300 fa-solid fa-arrow-down"></i></span>
+                    </button>
+                    <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 px-4">
+                        <p class="py-4 text-gray-600">
+                            لوريم إيبسوم هو نص شكلي يستخدم في الطباعة والتصميم لملء الفراغ.
+                        </p>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="accordion-item bg-gray-100 rounded-lg overflow-hidden">
+                    <button class="accordion-header w-full flex justify-between items-center p-4 text-right font-semibold">
+                        ما هو "لوريم إيبسوم"؟
+                        <span class="icon transition-transform duration-300"><i
+                                class="text-amber-300 fa-solid fa-arrow-down"></i></span>
+                    </button>
+                    <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 px-4">
+                        <p class="py-4 text-gray-600">
+                            لوريم إيبسوم هو نص شكلي يستخدم في الطباعة والتصميم لملء الفراغ.
+                        </p>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="accordion-item bg-gray-100 rounded-lg overflow-hidden">
+                    <button class="accordion-header w-full flex justify-between items-center p-4 text-right font-semibold">
+                        ما هو "لوريم إيبسوم"؟
+                        <span class="icon transition-transform duration-300"><i
+                                class="text-amber-300 fa-solid fa-arrow-down"></i></span>
+                    </button>
+                    <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 px-4">
+                        <p class="py-4 text-gray-600">
+                            لوريم إيبسوم هو نص شكلي يستخدم في الطباعة والتصميم لملء الفراغ.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab5_acc max-w-3xl mx-auto mt-10 space-y-3 hidden">
+                <!-- Item -->
+                <div class="accordion-item bg-gray-100 rounded-lg overflow-hidden">
+                    <button class="accordion-header w-full flex justify-between items-center p-4 text-right font-semibold">
+                        ما هو "لوريم التعاون الدولي"؟
+                        <span class="icon transition-transform duration-300"><i
+                                class="text-amber-300 fa-solid fa-arrow-down"></i></span>
+                    </button>
+                    <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 px-4">
+                        <p class="py-4 text-gray-600">
+                            لوريم إيبسوم هو نص شكلي يستخدم في الطباعة والتصميم لملء الفراغ.
+                        </p>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="accordion-item bg-gray-100 rounded-lg overflow-hidden">
+                    <button class="accordion-header w-full flex justify-between items-center p-4 text-right font-semibold">
+                        ما هو "لوريم إيبسوم"؟
+                        <span class="icon transition-transform duration-300"><i
+                                class="text-amber-300 fa-solid fa-arrow-down"></i></span>
+                    </button>
+                    <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 px-4">
+                        <p class="py-4 text-gray-600">
+                            لوريم إيبسوم هو نص شكلي يستخدم في الطباعة والتصميم لملء الفراغ.
+                        </p>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="accordion-item bg-gray-100 rounded-lg overflow-hidden">
+                    <button class="accordion-header w-full flex justify-between items-center p-4 text-right font-semibold">
+                        ما هو "لوريم إيبسوم"؟
+                        <span class="icon transition-transform duration-300"><i
+                                class="text-amber-300 fa-solid fa-arrow-down"></i></span>
+                    </button>
+                    <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 px-4">
+                        <p class="py-4 text-gray-600">
+                            لوريم إيبسوم هو نص شكلي يستخدم في الطباعة والتصميم لملء الفراغ.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- fooooter -->
+    <footer class="">
+        <div class="mt-20 bg-gray-950 w-full text-gray-400 flex flex-wrap justify-between p-8">
+            <div>
+                <a href="" class="flex items-center gap-2 rtl:space-x-reverse m-5">
+                    <img class="w-10 " src="img/dc317381b10a77057fe67d789860c5bd714401f9.png" alt="">
+                    <div>
+                        <p class="text-amber-400 text-2xl">دولة فلسطين</p>
+                        <p class="text-amber-300 text-sm">وزارة الخارجية</p>
+                    </div>
+                </a>
+                <p class="max-w-100">نبذة عن وزارة الخارجية نبذة عن وزارة الخارجية الخارجية نبذة عن وزارة الخارجية نبذة عن
+                    وزارة
+                    الخارجية نبذة عن وزارة
+                    الخارجية نبذة عن وزارة الخارجية نبذة عن وزارة الخارجية نبذة عن وزارة الخارجية نبذة عن وزارة</p>
+            </div>
+            <div>
+                <p class="text-2xl border-b-2 border-amber-400 m-1 p-1 mb-5">روابط مهمة</p>
+                <ul class="text-center ">
+                    <li class="m-2"><a class="text-xl hover:text-amber-500 " href="">شكاوى المواطنين</a></li>
+                    <li class="m-2"><a class="text-xl hover:text-amber-500 " href="">أسئلة شائعة</a></li>
+                    <li class="m-2"><a class="text-xl hover:text-amber-500 " href="">روابط مهمة</a></li>
+                    <li class="m-2"><a class="text-xl hover:text-amber-500 " href="">روابط مهمة</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="text-2xl border-b-2 border-amber-400 m-1 p-1 mb-5">للتواصل</p>
+                <div><i class="fa-brands fa-facebook-f hover:text-blue-800 text-2xl"></i>
+                    <i class="fa-brands fa-twitter hover:text-blue-400 text-2xl"></i>
+                    <i class="fa-brands fa-instagram hover:text-red-400 text-2xl"></i>
+                </div>
+            </div>
+        </div>
+        <div class="w-full h-9 bg-amber-300 flex justify-center items-center">
+            <p>جميع الحقوق محفوظة - وزارة الخارجية 2023</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    const tabs = Array.from(document.querySelector('.tabs').children);
+    const accordion = Array.from(document.querySelector('.accordion').children);
+    tabs.forEach((tab, index) => {
+        tab.onclick = () => {
+            tabs.forEach(el=>{
+                el.classList.remove('bg-amber-300');
+            })
+            tab.classList.add('bg-amber-300');
+            // إخفاء كل العناصر
+            accordion.forEach(el => {
+                el.classList.add('hidden');
+            });
+            // إظهار العنصر المرتبط
+            document
+                .querySelector(`.tab${index + 1}_acc`)
+                .classList.remove('hidden');
+        };
+    });
+        window.onload =  () => {
+            const items = document.querySelectorAll(".accordion-item");
+
+            items.forEach(item => {
+                const header = item.querySelector(".accordion-header");
+                const content = item.querySelector(".accordion-content");
+                const icon = item.querySelector(".icon");
+                header.onclick =  () => {
+                    // إغلاق كل العناصر أولاً
+                    items.forEach(i => {
+                        i.querySelector(".accordion-content").style.maxHeight = null;
+                        i.querySelector(".icon").classList.remove("rotate-180");
+                    });
+                    // إذا لم يكن مفتوحًا افتحه
+                    if (!content.style.maxHeight) {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                        icon.classList.add("rotate-180");
+                    }
+                };
+            });
+        };
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
