@@ -283,7 +283,7 @@
         const news_wrapper = document.querySelector('.news_wrapper');
         async function fetchNews() {
             try {
-                const response = await fetch("/data/news.json");
+                const response = await fetch("data/news.json");
                 if (!response.ok) {
                     throw new Error("Network error");
                 }
